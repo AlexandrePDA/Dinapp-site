@@ -1,0 +1,23 @@
+.final-cta__card {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  padding: 4rem 2rem;
+  border-radius: 42px 28px 56px 38px;
+  background:
+    radial-gradient(60% 80% at 85% 10%, rgba(255, 217, 122, 0.5), transparent 70%),
+    radial-gradient(55% 75% at 10% 90%, rgba(126, 184, 232, 0.42), transparent 70%),
+    linear-gradient(135deg, rgba(255, 155, 122, 0.5), rgba(255, 217, 122, 0.4));
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.final-cta__title {
+  font-size: clamp(1.9rem, 4.4vw, 3rem);
+  margin: 0.8rem 0;
+}
+
+.final-cta__subtitle {
+  color: var(--plum-soft);
+  font-weight: 600;
+  margin-bottom: 1.8rem;
+}
