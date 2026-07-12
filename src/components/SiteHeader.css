@@ -22,6 +22,10 @@
   text-decoration: none;
 }
 
+.site-header__logo {
+  border-radius: 11px;
+}
+
 .site-header__name {
   font-size: 1.5rem;
 }

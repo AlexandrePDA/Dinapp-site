@@ -16,6 +16,10 @@
   gap: 0.7rem;
 }
 
+.site-footer__logo {
+  border-radius: 10px;
+}
+
 .site-footer__name {
   font-size: 1.3rem;
   line-height: 1.1;

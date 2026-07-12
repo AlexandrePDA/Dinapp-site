@@ -1,6 +1,6 @@
 # Site vitrine Dinapp
 
-Landing page de **Dinapp — le journal des petites aventures de bébé**, construite avec React + Vite. Elle sert de site marketing et de pages « Politique de confidentialité » / « Conditions d'utilisation » exigées par Apple pour la publication sur l'App Store.
+Landing page de **Dinapp, le journal des petites aventures de bébé**, construite avec React + Vite. Elle sert de site marketing et de pages « Politique de confidentialité » / « Conditions d'utilisation » exigées par Apple pour la publication sur l'App Store.
 
 ## Démarrer
 

@@ -1,4 +1,5 @@
 import { screenshots } from '../data/features.js'
+import Reveal from './Reveal.jsx'
 import './Hero.css'
 
 export default function Hero() {
@@ -9,7 +10,7 @@ export default function Hero() {
       <div className="hero__blob hero__blob--butter" aria-hidden="true" />
 
       <div className="container hero__inner">
-        <div className="hero__copy">
+        <Reveal className="hero__copy">
           <p className="overline">Le journal des petites aventures</p>
           <h1 id="hero-title" className="editorial hero__title">
             Chaque escapade de bébé
@@ -18,7 +19,7 @@ export default function Hero() {
           </h1>
           <p className="hero__subtitle">
             Sorties, week-ends, vacances&nbsp;: gardez une trace joyeuse des premières
-            aventures de votre enfant — et revivez-les, jour après jour.
+            aventures de votre enfant, et revivez-les jour après jour.
           </p>
           <div className="hero__actions" id="telecharger">
             <a className="btn-primary" href="#fonctionnalites">
@@ -31,10 +32,11 @@ export default function Hero() {
           <p className="hero__note">
             Gratuit · Sans compte · Sans publicité · Conçu pour iPhone
           </p>
-        </div>
+        </Reveal>
 
-        <div className="hero__phone">
+        <Reveal className="hero__phone" delay={180}>
           <img
+            className="float"
             src={screenshots.accueil.src}
             alt={screenshots.accueil.alt}
             width="300"
@@ -42,7 +44,7 @@ export default function Hero() {
             loading="eager"
             fetchPriority="high"
           />
-        </div>
+        </Reveal>
       </div>
     </section>
   )

@@ -6,7 +6,7 @@ export default function SiteFooter() {
     <footer className="site-footer">
       <div className="container site-footer__inner">
         <div className="site-footer__brand">
-          <img src="/favicon.svg" alt="" width="30" height="30" />
+          <img src="/logo-dinapp.png" alt="" width="34" height="34" className="site-footer__logo" />
           <div>
             <p className="editorial site-footer__name">Dinapp</p>
             <p className="site-footer__tagline">Le journal des petites aventures</p>
@@ -16,7 +16,7 @@ export default function SiteFooter() {
         <nav aria-label="Liens légaux" className="site-footer__links">
           <Link to="/confidentialite">Politique de confidentialité</Link>
           <Link to="/conditions">Conditions d’utilisation</Link>
-          <a href="mailto:a.pires130@gmail.com">Contact &amp; support</a>
+          <a href="mailto:dev.dakaprod@gmail.com">Contact &amp; support</a>
         </nav>
 
         <p className="site-footer__legal">

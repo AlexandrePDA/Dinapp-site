@@ -2,7 +2,7 @@
   "name": "dinapp-site",
   "private": true,
   "version": "1.0.0",
-  "description": "Site vitrine de Dinapp — le journal des petites aventures de bébé",
+  "description": "Site vitrine de Dinapp, le journal des petites aventures de bébé",
   "type": "module",
   "scripts": {
     "dev": "vite",

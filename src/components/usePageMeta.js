@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 
 /**
- * Met à jour le titre et la meta description de la page —
+ * Met à jour le titre et la meta description de la page :
  * indispensable pour le SEO des pages internes d'une SPA.
  */
 export default function usePageMeta({ title, description }) {

@@ -3,7 +3,7 @@ import './LegalPage.css'
 
 export default function PrivacyPage() {
   usePageMeta({
-    title: 'Politique de confidentialité — Dinapp',
+    title: 'Politique de confidentialité | Dinapp',
     description:
       'Comment Dinapp protège les souvenirs de votre famille : stockage dans votre iCloud privé, aucun compte, aucune publicité, aucun traqueur, aucune collecte de données par l’éditeur.',
   })
@@ -28,7 +28,7 @@ export default function PrivacyPage() {
         <p>
           L’application Dinapp (ci-après «&nbsp;l’Application&nbsp;») est éditée par
           Alexandre P. (ci-après «&nbsp;l’Éditeur&nbsp;»). Pour toute question relative à la
-          présente politique&nbsp;: <a href="mailto:a.pires130@gmail.com">a.pires130@gmail.com</a>.
+          présente politique&nbsp;: <a href="mailto:dev.dakaprod@gmail.com">dev.dakaprod@gmail.com</a>.
         </p>
 
         <h2>2. Quelles données sont traitées, et où ?</h2>
@@ -45,7 +45,7 @@ export default function PrivacyPage() {
           Ces données sont enregistrées <strong>uniquement sur votre appareil</strong> et
           synchronisées dans la <strong>base de données privée iCloud</strong> associée à
           votre identifiant Apple (service CloudKit). Elles ne transitent par aucun serveur
-          de l’Éditeur — il n’en existe pas. L’Éditeur ne peut ni les consulter, ni les
+          de l’Éditeur : il n’en existe pas. L’Éditeur ne peut ni les consulter, ni les
           exploiter, ni les transmettre.
         </p>
 
@@ -95,9 +95,9 @@ export default function PrivacyPage() {
           tout moment&nbsp;: supprimer une escapade, une photo ou un séjour dans
           l’Application&nbsp;; supprimer l’Application et ses données iCloud (Réglages iOS →
           votre identifiant Apple → iCloud → Gérer le stockage). Conformément au RGPD, vous
-          disposez des droits d’accès, de rectification et d’effacement — que vous exercez
+          disposez des droits d’accès, de rectification et d’effacement, que vous exercez
           directement, puisque vous êtes la seule personne à détenir vos données. Pour toute
-          question&nbsp;: <a href="mailto:a.pires130@gmail.com">a.pires130@gmail.com</a>.
+          question&nbsp;: <a href="mailto:dev.dakaprod@gmail.com">dev.dakaprod@gmail.com</a>.
         </p>
 
         <h2>9. Données des enfants</h2>

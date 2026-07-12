@@ -3,7 +3,7 @@ import './LegalPage.css'
 
 export default function TermsPage() {
   usePageMeta({
-    title: 'Conditions générales d’utilisation — Dinapp',
+    title: 'Conditions générales d’utilisation | Dinapp',
     description:
       'Conditions générales d’utilisation et de vente de l’application Dinapp : licence, obligations, disponibilité, propriété intellectuelle et droit applicable.',
   })
@@ -115,7 +115,7 @@ export default function TermsPage() {
         <h2>12. Contact</h2>
         <p>
           Pour toute question relative aux présentes Conditions&nbsp;:{' '}
-          <a href="mailto:a.pires130@gmail.com">a.pires130@gmail.com</a>.
+          <a href="mailto:dev.dakaprod@gmail.com">dev.dakaprod@gmail.com</a>.
         </p>
       </div>
     </section>

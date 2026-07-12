@@ -9,7 +9,7 @@ export default function SiteHeader() {
     <header className="site-header">
       <div className="container site-header__inner">
         <Link to="/" className="site-header__brand" aria-label="Dinapp, retour à l’accueil">
-          <img src="/favicon.svg" alt="" width="34" height="34" />
+          <img src="/logo-dinapp.png" alt="" width="38" height="38" className="site-header__logo" />
           <span className="site-header__name editorial">Dinapp</span>
         </Link>
 

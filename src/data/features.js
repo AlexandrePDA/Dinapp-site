@@ -36,7 +36,7 @@ export const features = [
       'Une sortie au parc, un week-end chez les grands-parents, les premières vacances… Notez le lieu, l’occasion, une anecdote et jusqu’à trois photos. Le journal classe tout, mois par mois, jour après jour.',
     points: [
       'Six occasions : famille, week-end, vacances, rendez-vous, découverte…',
-      'Une anecdote pour chaque moment fort — « Première fois qu’il voit la mer. »',
+      'Une anecdote pour chaque moment fort : « Première fois qu’il voit la mer. »',
       'Regroupez les étapes d’un même séjour, comme un été en Bretagne.',
     ],
   },
@@ -47,7 +47,7 @@ export const features = [
     tint: 'sky',
     screenshot: 'carte',
     description:
-      'Chaque lieu découvert dépose son épingle colorée sur la carte. D’un coup d’œil, revivez le chemin parcouru — et regardez la carte se remplir au fil des aventures.',
+      'Chaque lieu découvert dépose son épingle colorée sur la carte. D’un coup d’œil, revivez le chemin parcouru, et regardez la carte se remplir au fil des aventures.',
     points: [
       'Des épingles aux couleurs de chaque occasion',
       'Le compteur des lieux uniques découverts',
@@ -75,7 +75,7 @@ export const features = [
     tint: 'plum',
     screenshot: 'retrospective',
     description:
-      'Combien d’escapades cette année ? Combien de kilomètres, de lieux uniques ? La rétrospective raconte l’année écoulée — et s’exporte en un joli PDF à imprimer ou à offrir.',
+      'Combien d’escapades cette année ? Combien de kilomètres, de lieux uniques ? La rétrospective raconte l’année écoulée, et s’exporte en un joli PDF à imprimer ou à offrir.',
     points: [
       'Escapades, lieux uniques et kilomètres parcourus',
       'La répartition par occasion, en couleurs',
@@ -127,7 +127,7 @@ export const faq = [
   {
     question: 'Combien de photos puis-je ajouter à une escapade ?',
     answer:
-      'Jusqu’à trois photos par escapade — l’essentiel, sans surcharger votre iCloud. Les images sont automatiquement optimisées.',
+      'Jusqu’à trois photos par escapade : l’essentiel, sans surcharger votre iCloud. Les images sont automatiquement optimisées.',
   },
   {
     question: 'Puis-je imprimer le journal ?',
