@@ -28,6 +28,12 @@
   margin: 2.2rem 0 0.7rem;
 }
 
+.legal h3 {
+  font-weight: 700;
+  font-size: 1.05rem;
+  margin: 1.4rem 0 0.3rem;
+}
+
 .legal p,
 .legal li {
   color: var(--plum-soft);

@@ -5,6 +5,7 @@ import SiteFooter from './components/SiteFooter.jsx'
 import HomePage from './pages/HomePage.jsx'
 import PrivacyPage from './pages/PrivacyPage.jsx'
 import TermsPage from './pages/TermsPage.jsx'
+import SupportPage from './pages/SupportPage.jsx'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -24,6 +25,7 @@ export default function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/confidentialite" element={<PrivacyPage />} />
           <Route path="/conditions" element={<TermsPage />} />
+          <Route path="/support" element={<SupportPage />} />
         </Routes>
       </main>
       <SiteFooter />

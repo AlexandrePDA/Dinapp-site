@@ -16,7 +16,7 @@ export default function SiteFooter() {
         <nav aria-label="Liens légaux" className="site-footer__links">
           <Link to="/confidentialite">Politique de confidentialité</Link>
           <Link to="/conditions">Conditions d’utilisation</Link>
-          <a href="mailto:dev.dakaprod@gmail.com">Contact &amp; support</a>
+          <Link to="/support">Contact &amp; support</Link>
         </nav>
 
         <p className="site-footer__legal">
