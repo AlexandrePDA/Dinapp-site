@@ -1,5 +1,5 @@
 .legal {
-  padding: 3.5rem 0 4rem;
+  padding: calc(var(--header-h) + 2rem) 0 4rem;
 }
 
 .legal__inner {
