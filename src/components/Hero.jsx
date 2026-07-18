@@ -1,4 +1,5 @@
 import { screenshots } from '../data/features.js'
+import AppStoreBadge from './AppStoreBadge.jsx'
 import Reveal from './Reveal.jsx'
 import './Hero.css'
 
@@ -22,9 +23,7 @@ export default function Hero() {
             aventures de votre enfant, et revivez-les jour après jour.
           </p>
           <div className="hero__actions" id="telecharger">
-            <a className="btn-primary" href="#fonctionnalites">
-              <span aria-hidden="true">✦</span> Bientôt sur l’App&nbsp;Store
-            </a>
+            <AppStoreBadge />
             <a className="btn-ghost" href="#fonctionnalites">
               Découvrir l’app
             </a>

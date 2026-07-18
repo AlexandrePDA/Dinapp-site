@@ -1,4 +1,5 @@
 import { Link, useLocation } from 'react-router-dom'
+import { APP_STORE_URL } from '../data/appStore.js'
 import './SiteHeader.css'
 
 export default function SiteHeader() {
@@ -23,7 +24,12 @@ export default function SiteHeader() {
           ) : (
             <Link to="/">Accueil</Link>
           )}
-          <a className="btn-primary site-header__cta" href="#telecharger">
+          <a
+            className="btn-primary site-header__cta"
+            href={APP_STORE_URL}
+            target="_blank"
+            rel="noopener"
+          >
             Télécharger
           </a>
         </nav>

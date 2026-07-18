@@ -1,3 +1,4 @@
+import AppStoreBadge from './AppStoreBadge.jsx'
 import Reveal from './Reveal.jsx'
 import './FinalCta.css'
 
@@ -13,9 +14,7 @@ export default function FinalCta() {
           <p className="final-cta__subtitle">
             Les premières années passent vite. Dinapp les garde précieusement.
           </p>
-          <a className="btn-primary" href="#telecharger">
-            <span aria-hidden="true">✦</span> Bientôt sur l’App&nbsp;Store
-          </a>
+          <AppStoreBadge className="final-cta__badge" />
         </Reveal>
       </div>
     </section>
